@@ -5,7 +5,7 @@
 ### Services
 
 - API (flask):
-  - Make asynchronous calls to nameko services `userevents` and `userstats`.
+  - Make RPC calls to nameko services `userevents` and `userstats`.
   - Endpoints are synchronous. 
   TODO: They should be asynchronous and return a 202. 
 - `userevents`(nameko service):
